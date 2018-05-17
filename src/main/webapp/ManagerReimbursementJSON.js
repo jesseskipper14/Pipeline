@@ -99,7 +99,7 @@ function getRequests() {
     };
 
     // Step 3: Call the open() method
-    xhr.open("GET", "8090/Project_1/getAllRequests.ajax");
+    xhr.open("GET", "/Project_1/getAllRequests.ajax");
 
     // Step 4: Call the send() method
     xhr.send();
@@ -198,7 +198,7 @@ function getEmployeeRequests() {
         }
     };
     // Step 3: Call the open() method
-    xhr.open("GET", "8090/Project_1/getAllRequests.ajax");
+    xhr.open("GET", "/Project_1/getAllRequests.ajax");
 
     // Step 4: Call the send() method
     xhr.send();
@@ -268,7 +268,7 @@ function getEmployees() {
     };
 
     // Step 3: Call the open() method
-    xhr.open("GET", "8090/Project_1/getAllEmployees.ajax");
+    xhr.open("GET", "/Project_1/getAllEmployees.ajax");
 
     // Step 4: Call the send() method
     xhr.send();
@@ -342,7 +342,7 @@ function getReceipts(requestId){
 	    }
 	}
 	    // Step 3: Call the open() method
-	    xhr.open("GET", "8090/Project_1/getAllImages.ajax");
+	    xhr.open("GET", "/Project_1/getAllImages.ajax");
 
 	    // Step 4: Call the send() method
 	    xhr.send();
