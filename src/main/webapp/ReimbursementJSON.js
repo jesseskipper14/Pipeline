@@ -70,7 +70,7 @@ function getRequests(){
   };
 
   // Step 3: Call the open() method
-  xhr.open("GET", "http://localhost:8080/Project_1/getAllRequests.ajax");
+  xhr.open("GET", "http://localhost:8090/Project_1/getAllRequests.ajax");
 
   // Step 4: Call the send() method
   xhr.send();

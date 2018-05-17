@@ -57,7 +57,7 @@ function getEmployees(){
   };
 
   // Step 3: Call the open() method
-  xhr.open("GET", "http://localhost:8080/Project_1/getAllEmployees.ajax");
+  xhr.open("GET", "http://localhost:8090/Project_1/getAllEmployees.ajax");
 
   // Step 4: Call the send() method
   xhr.send();

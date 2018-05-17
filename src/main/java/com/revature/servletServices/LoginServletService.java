@@ -29,6 +29,7 @@ public class LoginServletService {
 				System.out.println("Employee ID: " + employee.getId());
 				Manager manager = ManagerService.getManager(employee.getId());
 				System.out.println("Manager: " + manager);
+
 				request.getSession().setAttribute("authorizedUser", manager);
 				return "/managerHome.do";
 			}
